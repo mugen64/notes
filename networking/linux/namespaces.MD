@@ -67,3 +67,8 @@ ip -n <namspace-1> link set veth-<namespace-1> up
 ```bash
 ip netns exec <namespace> ping <ip2>
 ```
+
+- DELETE link
+```bash
+ip -n <namespace> link del <veth-namespace>
+```
